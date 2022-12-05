@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*1 REM= 10PX */
+}
+
+header {
+    background-image: url(/Portfolio-Salvador-Espinosa/assets/Img/Hello-world.png);
+    width: 100%;
+}
+
+main figure img {
+width: 75%;
+height: auto;
+display:block;
+object-fit: contain;
+overflow: hidden;
+
+}
+
+body header nav ul li {
+    display: inline;
+}
+
+
+
+body header nav ul li a{
+    font-size: 1.3rem;
+
+}
+
+/* * Navbar class changes */
+
+.navbar {
+    background-color: rgb(157, 72, 237);
+    overflow: hidden;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    float: right
+}
+
+.navbar a {
+    font-size: 2rem;
+    /* float: right;
+    text-align: center; */
+    margin: 1.4rem 1.6rem;
+    text-align: center;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+
+/* * end of Navbar class changes  */
+
+
