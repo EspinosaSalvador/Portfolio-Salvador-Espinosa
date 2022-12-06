@@ -7,7 +7,17 @@ html {
 
 body header nav ul li a{
     font-size: 1.3rem;
+    text-decoration: none;
+    
 
+}
+
+footer {
+    background-color: rgb(157, 72, 237);
+    width: 100%;
+    padding: 2.5rem;
+    text-align: center;
+    
 }
 
 .heading {
@@ -19,7 +29,7 @@ body header nav ul li a{
 p {
     font-size: 1.9rem;
     font-weight: 400;
-    margin: 1rem 1rem;
+    margin: 1.5rem 3rem;
     flex-wrap: wrap;
 }
 
@@ -105,6 +115,11 @@ margin: 2rem 3rem;
     width: 50%;
 }
 
+.blog {
+    width: 50%;
+    height: auto;
+    margin: 5rem 5rem;
+}
 
 /* * End of Boxes */
 
@@ -136,4 +151,10 @@ margin: 2rem 3rem;
         color: yellow;
     }
 
+}
+
+#wolf {
+    width: auto;
+    height: auto;
+    margin: 3rem 3rem;
 }
