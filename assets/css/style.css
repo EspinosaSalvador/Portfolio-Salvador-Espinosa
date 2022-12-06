@@ -17,14 +17,15 @@ body header nav ul li a{
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     font-weight: 400;
     margin: 1rem 1rem;
+    flex-wrap: wrap;
 }
 
 .hero {
     width: 100%;
-    height: 22rem;
+    height: 20rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,15 +60,23 @@ p {
     color: blueviolet;
 }
 
+.links-size {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+}
+
 
 /* * end of Navbar class changes  */
 
 /* * Start of Boxes */
 .row  {
     margin: .8rem -1.6rem;
+    background-color: rgb(157, 72, 237);
+    color: white;
 }
 .row, .row > .column {
-    padding: .8rem;
+    padding: 3rem;
+    margin: 2.5rem 2.5rem;
 }
 
 .column {
@@ -83,9 +92,20 @@ p {
 }
 
 .content {
-background-color: yellow;
 padding: 1rem;
+margin: 2rem 3rem;
+
 }
+.img-table {
+    opacity: 1;
+    display: inline;}
+    
+
+.img-table {
+    width: 50%;
+}
+
+
 /* * End of Boxes */
 
 @media screen and (max-width: 90rem) {
@@ -98,6 +118,22 @@ padding: 1rem;
 @media screen and (max-width: 60rem) {
     .column {
         width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 90rem){
+    p {
+        font-size: 2.0rem;
+         color: brown;
+    }
+    
+}
+
+@media screen and (max-width: 60rem) {
+    p {
+        font-size: 2.5rem;
+        color: yellow;
     }
 
 }
