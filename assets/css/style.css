@@ -19,6 +19,9 @@ footer {
     text-align: center;
     
 }
+span {
+    color: yellow;
+}
 
 .heading {
     font-size: 2rem;
@@ -119,7 +122,7 @@ margin: 2rem 1.5rem;
 .img-table:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    transform: scale(1.7);
 }
 
 .blog {
